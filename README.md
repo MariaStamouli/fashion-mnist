@@ -30,6 +30,7 @@ This dataset contains 70,000 grayscale images  of size 28 X 28, in 10 categories
 ## Models
 
 We train a Multilayer Perceptron (MLP) and a Convolutional Neural Network (CNN) to perform above classification task.
+We train both models for many epochs and we use an early stopping. We also use Drop out to avoid overfitting.
 
 
 [fashion mnist dataset]: <https://research.zalando.com/welcome/mission/research-projects/fashion-mnist/>
